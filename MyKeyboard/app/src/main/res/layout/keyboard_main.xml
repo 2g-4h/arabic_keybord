@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ECECEC">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/suggestionsRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp" />
+    </HorizontalScrollView>
+
+    <com.example.mykeyboard.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

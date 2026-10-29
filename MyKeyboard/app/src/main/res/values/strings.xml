@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">اللوحة العربي</string>
+    <string name="keyboard_name">اللوحة العربي</string>
+    <string name="subtype_en">English</string>
+    <string name="subtype_ar">العربية</string>
+    <string name="enable_steps">لتفعيل الكيبورد:\n1) اضغط الزر بالأسفل\n2) فعّل اللوحة العربي\n3) اخترها كلغة إدخال عند الكتابة</string>
+    <string name="open_ime_settings">فتح إعدادات لوحة المفاتيح</string>
+    <string name="open_app_settings">إعدادات التطبيق والثيمات</string>
+    <string name="settings_title">إعدادات اللوحة العربي</string>
+    <string name="theme_label">الثيم</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_teal">مائي</string>
+    <string name="height_label">ارتفاع لوحة المفاتيح</string>
+    <string name="vibrate_label">اهتزاز عند الضغط</string>
+    <string name="sound_label">صوت عند الضغط</string>
+    <string name="settings_note">تُطبَّق التغييرات فور فتح الكيبورد من جديد في أي تطبيق.</string>
+    <string name="barcode_hint">وجّه الكاميرا نحو الباركود أو QR</string>
+    <string name="close">إغلاق</string>
+</resources>

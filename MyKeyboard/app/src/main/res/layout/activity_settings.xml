@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theme_label"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/rgTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton android:id="@+id/rbLight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme_light" />
+        <RadioButton android:id="@+id/rbDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme_dark" />
+        <RadioButton android:id="@+id/rbTeal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme_teal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/sbHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="340"
+        android:min="180"
+        android:layout_marginBottom="20dp" />
+
+    <CheckBox
+        android:id="@+id/cbVibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vibrate_label" />
+
+    <CheckBox
+        android:id="@+id/cbSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sound_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_note"
+        android:textSize="13sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
